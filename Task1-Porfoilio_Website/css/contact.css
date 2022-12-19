@@ -1,0 +1,78 @@
+.contact-form {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0 35px;
+  padding-top: 80px;
+}
+
+.contact-form h1 {
+  font-size: 1.8em;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+  padding: 12px 0px;
+}
+
+.contact-form form {
+  width: 40vh;
+}
+
+.contact-form form label {
+  font-size: 1em;
+}
+
+.contact-form form div {
+  padding: 6px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form form div input[type="text"],
+input[type="email"] {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+#emailHelp {
+  font-size: 0.8em;
+  color: darkblue;
+  margin: 0px 5px;
+  padding: 3px 0px;
+}
+
+.contact-form form div textarea {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.btns {
+  margin: 20px 0px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.btns input[type="submit"] {
+  border: 0px solid;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 14px;
+  border-bottom-left-radius: 16px;
+  border-top-right-radius: 16px;
+  color: white;
+  background: dodgerblue;
+  font-weight: 600;
+  font-size: 1.0em ;
+  margin: 0px 3px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btns input[type="submit"]:hover {
+  color: black;
+  background: lightblue;
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+.my-intro {
+  font-size: 16px;
+  height: 52vh;
+  width: 70vw;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 30vh;
+}
+
+.about-me h1,
+.my-skills h1 {
+  font-size: 1.8em;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin: 25px;
+}
+
+.about-me p,
+.my-skills p {
+  margin: 10px 25px;
+  font-size: 1.2em;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.intro-img img {
+  height: 45vh;
+  border-radius: 50%;
+}
+
+.my-skills {
+  height: 50vh;
+  width: 70vw;
+  padding: 6px;
+  background: darkcyan;
+  border-radius: 10px;
+  margin: 25px auto;
+}
+
+.skill-container {
+  margin: 20px 16px;
+  padding: 10px 25px;
+  width: 45%;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5em;
+  font-weight: 700;
+  float: left;
+}
+
+.skill-container meter {
+  height: 35px;
+  width: 50%;
+}
+
+.sk-img {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  float: left;
+  width: 45%;
+}
+
+.sk-img img {
+  height: 250px;
+  width: 250px;
+}

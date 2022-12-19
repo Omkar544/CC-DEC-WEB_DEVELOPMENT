@@ -1,0 +1,82 @@
+.info-container {
+  height: 58vh;
+  width: 70vw;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dev-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.hello {
+  font-size: 3em;
+  font-family: "Oooh Baby", cursive;
+}
+
+.name {
+  font-size: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 90;
+}
+
+
+
+.about {
+  font-size: 2.5em;
+  font-family: "Lucida Console", "Courier New", monospace;
+  letter-spacing: 2px;
+}
+
+.moreabout {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btns {
+  margin-top: 20px;
+}
+
+.btns button {
+  border: 0px solid;
+  padding: 10px 14px;
+  border-bottom-left-radius: 16px;
+  border-top-right-radius: 16px;
+  color: white;
+  background: dodgerblue;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin: 0px 3px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btns button:hover {
+  color: black;
+  background: lightblue;
+}
+
+.dev-pic img {
+  height: 40vh;
+  border-radius: 35px;
+}
+
+.menu {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+  transition: 0.5s;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  left: 160px;
+  transition: 0.5s;
+}
